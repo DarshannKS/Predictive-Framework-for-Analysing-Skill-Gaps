@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\project\\code\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F86E48B9-C2F9-4A3F-A04E-D462076BD3F1}|deedback\\deedback.csproj|c:\\project\\code\\deedback\\currnt_stud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86E48B9-C2F9-4A3F-A04E-D462076BD3F1}|deedback\\deedback.csproj|solutionrelative:deedback\\currnt_stud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86E48B9-C2F9-4A3F-A04E-D462076BD3F1}|deedback\\deedback.csproj|C:\\project\\code\\deedback\\currnt_stud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F86E48B9-C2F9-4A3F-A04E-D462076BD3F1}|deedback\\deedback.csproj|solutionrelative:deedback\\currnt_stud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86E48B9-C2F9-4A3F-A04E-D462076BD3F1}|deedback\\deedback.csproj|C:\\project\\code\\deedback\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F86E48B9-C2F9-4A3F-A04E-D462076BD3F1}|deedback\\deedback.csproj|solutionrelative:deedback\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "currnt_stud.aspx.cs",
+              "DocumentMoniker": "C:\\project\\code\\deedback\\currnt_stud.aspx.cs",
+              "RelativeDocumentMoniker": "deedback\\currnt_stud.aspx.cs",
+              "ToolTip": "C:\\project\\code\\deedback\\currnt_stud.aspx.cs",
+              "RelativeToolTip": "deedback\\currnt_stud.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:31:26.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "currnt_stud.aspx",
+              "DocumentMoniker": "C:\\project\\code\\deedback\\currnt_stud.aspx",
+              "RelativeDocumentMoniker": "deedback\\currnt_stud.aspx",
+              "ToolTip": "C:\\project\\code\\deedback\\currnt_stud.aspx",
+              "RelativeToolTip": "deedback\\currnt_stud.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-01T04:42:04.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\project\\code\\deedback\\index.aspx",
+              "RelativeDocumentMoniker": "deedback\\index.aspx",
+              "ToolTip": "C:\\project\\code\\deedback\\index.aspx",
+              "RelativeToolTip": "deedback\\index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-01T04:33:09.502Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

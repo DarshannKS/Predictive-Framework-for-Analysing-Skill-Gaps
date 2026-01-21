@@ -1,0 +1,3 @@
+python deploy.py
+
+Users/akshatvg/Desktop/Semester 6/VIT Rex/Spam-Slayer/material/reviews4.csv

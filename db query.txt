@@ -1,0 +1,100 @@
+CREATE TABLE [dbo].[Chat_Bot] (
+    [id]        INT           IDENTITY (1, 1) NOT NULL,
+    [Cname]     VARCHAR (100) NULL,
+    [Msg_desc]  VARCHAR (100) NULL,
+    [CreatedOn] VARCHAR (100) DEFAULT (getdate()) NULL,
+    [IpAddress] VARCHAR (100) NULL
+);
+
+
+CREATE TABLE [dbo].[CR_alumini_meet] (
+    [id]               INT           IDENTITY (1, 1) NOT NULL,
+    [Tittle]           VARCHAR (100) NULL,
+    [Place]            VARCHAR (100) NULL,
+    [Meeting_Date]     VARCHAR (100) NULL,
+    [Meeting_deatails] VARCHAR (100) NULL,
+    [Contact_number]   VARCHAR (100) NULL,
+    [File]             VARCHAR (100) NULL,
+    [CreatedOn]        VARCHAR (100) DEFAULT (getdate()) NULL,
+    [addresses]        VARCHAR (100) NULL
+);
+
+CREATE TABLE [dbo].[CR_course] (
+    [id]           INT           IDENTITY (1, 1) NOT NULL,
+    [CourseName]   VARCHAR (100) NULL,
+    [CourseDetail] VARCHAR (500) NULL,
+    [File]         VARCHAR (100) NULL,
+    [Branch]       VARCHAR (100) NULL,
+    [Lcount]       BIT           NULL,
+    [age]          VARCHAR (100) NULL
+);
+
+CREATE TABLE [dbo].[CR_Donation] (
+    [id]         INT           IDENTITY (1, 1) NOT NULL,
+    [FirstName]  VARCHAR (100) NULL,
+    [CardNumber] VARCHAR (100) NULL,
+    [Amount]     VARCHAR (100) NULL,
+    [EmailID]    VARCHAR (100) NULL,
+    [Uid]        VARCHAR (100) NULL,
+    [Tid]        VARCHAR (100) NULL,
+    [CreatedOn]  VARCHAR (100) DEFAULT (getdate()) NULL,
+    [IpAddress]  VARCHAR (100) NULL
+);
+
+
+CREATE TABLE [dbo].[CR_Login] (
+    [id]        INT           IDENTITY (1, 1) NOT NULL,
+    [FirstName] VARCHAR (100) NULL,
+    [LastName]  VARCHAR (100) NULL,
+    [FullName]  VARCHAR (100) NULL,
+    [EmailID]   VARCHAR (100) NULL,
+    [Gender]    VARCHAR (100) NULL,
+    [Mobile]    VARCHAR (100) NULL,
+    [aadhaar]   VARCHAR (100) NULL,
+    [CreatedOn] VARCHAR (100) NULL,
+    [IpAddress] VARCHAR (100) NULL,
+    [Password]  VARCHAR (100) NULL,
+    [Industry]  VARCHAR (100) NULL,
+    [Role]      VARCHAR (100) NULL,
+    [Lcount]    BIT           NULL,
+    [addresses] VARCHAR (100) NULL,
+    [age]       VARCHAR (100) NULL,
+    [utype]     VARCHAR (100) NULL,
+    [status]    VARCHAR (100) NULL,
+    [branch]    VARCHAR (100) NULL,
+    [Company]   VARCHAR (100) NULL,
+    [City]      VARCHAR (100) NULL,
+    [POY]       VARCHAR (100) NULL,
+    [usn]       VARCHAR (100) NULL
+);
+
+
+CREATE TABLE [dbo].[CR_Training] (
+    [id]                   INT           IDENTITY (1, 1) NOT NULL,
+    [Training_Concept]     VARCHAR (100) NULL,
+    [Training_Details]     VARCHAR (100) NULL,
+    [Trainer_name]         VARCHAR (100) NULL,
+    [Training_Starts_from] VARCHAR (100) NULL,
+    [Contact_number]       VARCHAR (100) NULL,
+    [File]                 VARCHAR (100) NULL,
+    [CreatedOn]            VARCHAR (100) DEFAULT (getdate()) NULL
+);
+
+CREATE TABLE [dbo].[SMTW_JobData] (
+    [id]        INT           IDENTITY (1, 1) NOT NULL,
+    [Cname]     VARCHAR (100) NULL,
+    [Cemail]    VARCHAR (100) NULL,
+    [Cavil]     VARCHAR (100) NULL,
+    [loc]       VARCHAR (100) NULL,
+    [desc]      VARCHAR (100) NULL,
+    [Mobile]    VARCHAR (100) NULL,
+    [aadhaar]   VARCHAR (100) NULL,
+    [CreatedOn] VARCHAR (100) DEFAULT (getdate()) NULL,
+    [IpAddress] VARCHAR (100) NULL,
+    [CompID]    VARCHAR (100) NULL,
+    [Industry]  VARCHAR (100) NULL,
+    [JobTitle]  VARCHAR (100) NULL,
+    [Skills]    VARCHAR (100) NULL,
+    [ClsDate]   VARCHAR (100) NULL,
+    [Status]    VARCHAR (100) NULL
+);
